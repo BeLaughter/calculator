@@ -75,7 +75,7 @@ let root = document.querySelector(".root");
 
 let random = document.querySelector(".random");
 random.addEventListener(
-    'click', function(){ m n,
+    'click', function(){
         
         let g = Math.trunc(Math.random()*9)-1
         document.querySelector(".calcDisplay").value = g;

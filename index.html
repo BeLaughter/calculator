@@ -8,67 +8,205 @@
     <title>CALCULATOR</title>
   </head>
   <body>
-
-    <div class="table">
-   <table class="calculator">
-<tr>
-    <td colspan="3"><input type="text" class="calcDisplay" id="display" disabled></td>
-    <td><input type="button" value="D" class="button delet" id="cbtn"></td>
-</tr>
-<tr>
-    <td><input type="button" value="1" class="button" onclick="display('1')"></td>
-    <td><input type="button" value="2" class="button" onclick="display('2')"></td>
-    <td><input type="button" value="3" class="button" onclick="display('3')"></td>
-    <td><input type="button" value="÷" class="button" onclick="display('/')"></td>
-</tr>
-<tr>
-    <td><input type="button" value="4" class="button" onclick="display('4')"></td>
-    <td><input type="button" value="5" class="button" onclick="display('5')"></td>
-    <td><input type="button" value="6" class="button" onclick="display('6')"></td>
-    <td><input type="button" value="+" class="button" onclick="display('+')"></td>
-</tr>
-<tr>
-    <td><input type="button" value="7" class="button" onclick="display('7')"></td>
-    <td><input type="button" value="8" class="button" onclick="display('8')"></td>
-    <td><input type="button" value="9" class="button" onclick="display('9')"></td>
-    <td><input type="button" value="-" class="button" onclick="display('-')"></td>
-</tr>
-<tr>
-    <td><input type="button" value="." class="button" onclick="display('.')"></td>
-    <td><input type="button" value="0" class="button" onclick="display('0')"></td>
-    <td><input type="button" value="=" class="button solve" ></td>
-    <td><input type="button" value="*" class="button" onclick="display('*')"></td>
-</tr>
-<tr>
-  <td colspan="2"><input type="button" value="CLR" class="clear button"  id="cbtn"></td>
-  <td><input type="button" value="↓" class="button ancor "></td>
-  <td><P> @ ₼BLACKFIRE</P></td>
-  
-</tr>
-   </table>
-<br>
-   <div class="allfunc hidden">
-    <a class="anc btn">X</a>
-    <br>
-    <table class="fx">
-      <tr>
-          <td><input type="button" value="(" class="button" onclick="display('(')"></td>
-          <td><input type="button" value=")" class="button" onclick="display(')')"></td>
-          <td><input type="button" value="%" class="button percentage"></td>
-          <td><input type="button" value="^" class="button" onclick="display('**')"></td>
-          <td><input type="button" value="√" class="button root"></td>
-          <td><input type="button" value="±" class="button neg"></td>
-          <td><input type="button" value="Rn" class="button random"></td>
-      </tr>
-      <tr>
-        <td><input type="button" value="sin" class="button sin"></td>
-          <td><input type="button" value="cos" class="button cos"></td>
-          <td><input type="button" value="tan" class="button tan"></td>
-      </tr>
+    <div class="box">
+      <span class="span">
+        <div class="calculator">
+          <div class="screen">
+            <div class="calcDisplay"></div>
+            <div class="calcDisplay2"></div>
+          </div>
+          <br />
+          <table>
+            <tr>
+              <td>
+                <input
+                  type="button"
+                  value="1"
+                  class="button"
+                  onclick="display('1')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="2"
+                  class="button"
+                  onclick="display('2')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="3"
+                  class="button"
+                  onclick="display('3')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="÷"
+                  class="button"
+                  onclick="display('/')"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="button"
+                  value="4"
+                  class="button"
+                  onclick="display('4')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="5"
+                  class="button"
+                  onclick="display('5')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="6"
+                  class="button"
+                  onclick="display('6')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="+"
+                  class="button"
+                  onclick="display('+')"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="button"
+                  value="7"
+                  class="button"
+                  onclick="display('7')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="8"
+                  class="button"
+                  onclick="display('8')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="9"
+                  class="button"
+                  onclick="display('9')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="-"
+                  class="button"
+                  onclick="display('-')"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input
+                  type="button"
+                  value="."
+                  class="button"
+                  onclick="display('.')"
+                />
+              </td>
+              <td>
+                <input
+                  type="button"
+                  value="0"
+                  class="button"
+                  onclick="display('0')"
+                />
+              </td>
+              <td><input type="button" value="=" class="button solve" /></td>
+              <td>
+                <input
+                  type="button"
+                  value="*"
+                  class="button"
+                  onclick="display('*')"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input
+                  type="button"
+                  value="CLR"
+                  class="clear button"
+                  id="cbtn"
+                />
+              </td>
+              <td><input type="button" value="↓" class="button ancor" /></td>
+              <td>
+                <input type="button" value="D" class="button delet" id="cbtn" />
+              </td>
+            </tr>
+          </table>
+          <div><p>@ ₼BLACKFIRE</p></div>
+        </div>
+      </span>
+    </div>
+    <div class="allfunc hidden">
+      <a class="anc btn">X</a>
+      <br />
+      <table class="fx">
+        <tr>
+          <td>
+            <input
+              type="button"
+              value="("
+              class="button"
+              onclick="display('(')"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              value=")"
+              class="button"
+              onclick="display(')')"
+            />
+          </td>
+          <td><input type="button" value="%" class="button percentage" /></td>
+          <td>
+            <input
+              type="button"
+              value="^"
+              class="button"
+              onclick="display('**')"
+            />
+          </td>
+          <td><input type="button" value="√" class="button root" /></td>
+          <td><input type="button" value="±" class="button neg" /></td>
+          <td><input type="button" value="Rn" class="button random" /></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="sin" class="button sin" /></td>
+          <td><input type="button" value="cos" class="button cos" /></td>
+          <td><input type="button" value="tan" class="button tan" /></td>
+        </tr>
       </table>
-   </div>
+    </div>
 
-  </div>
     <script src="script.js"></script>
   </body>
 </html>

@@ -3,7 +3,7 @@ body {
   max-height: 100vhg;
 }
 .box {
-  height: 540px;
+  height: 640px;
   width: 440px;
   display: grid;
   border-radius: 15px 15px 0px 0px;
@@ -15,7 +15,7 @@ body {
 .box::before {
   content: "";
   position: absolute;
-  height: 640px;
+  height: 740px;
   width: 530px;
   background-image: conic-gradient(transparent, transparent, transparent, red);
   animation: rotate 2s linear infinite;
@@ -24,7 +24,7 @@ body {
 .box::after {
   content: "";
   position: absolute;
-  height: 640px;
+  height: 740px;
   width: 530px;
   background-image: conic-gradient(transparent, transparent, transparent, red);
   animation: rotate 2s linear infinite;
@@ -46,7 +46,7 @@ body {
 .calculator {
   padding: 10px;
   border-radius: 1em;
-  height: 500px;
+  height: 600px;
   width: 400px;
   margin: auto;
   padding-right: 10px;
@@ -56,14 +56,14 @@ body {
   padding: 20px;
   background-color: rgb(13, 13, 14);
   border-radius: 1em;
-  height: 100px;
+  height: 200px;
   width: 400px;
   margin: auto;
   box-shadow: 5px 5px 5px black;
 }
 td {
-  width: 170px;
-  height: 60px;
+  width: 150px;
+  height: 40px;
 }
 .hidden {
   display: none;

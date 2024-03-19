@@ -47,7 +47,7 @@ body {
   padding: 10px;
   border-radius: 1em;
   height: 600px;
-  width: 400px;
+  width: 300px;
   margin: auto;
   padding-right: 10px;
 }
@@ -56,7 +56,7 @@ body {
   padding: 20px;
   background-color: rgb(13, 13, 14);
   border-radius: 1em;
-  height: 200px;
+  height: auto;
   width: 400px;
   margin: auto;
   box-shadow: 5px 5px 5px black;

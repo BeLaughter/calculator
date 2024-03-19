@@ -11,7 +11,7 @@
 .box::before {
   content: "";
   position: absolute;
-  height: 740px;
+  height: 640px;
   width: 530px;
   background-image: conic-gradient(transparent, transparent, transparent, red);
   animation: rotate 2s linear infinite;
@@ -20,7 +20,7 @@
 .box::after {
   content: "";
   position: absolute;
-  height: 740px;
+  height: 640px;
   width: 530px;
   background-image: conic-gradient(transparent, transparent, transparent, red);
   animation: rotate 2s linear infinite;
@@ -42,7 +42,7 @@
 .calculator {
   padding: 10px;
   border-radius: 1em;
-  height: 450px;
+  height: auto;
   width: 250px;
   margin: auto;
   padding-right: 10px;
